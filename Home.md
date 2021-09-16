@@ -1,8 +1,8 @@
 Welcome to the axiom wiki! Join our Discord! https://discord.com/invite/c6BHVfn
 
-Axiom is a dynamic infrastructure framework for *everybody*! What does this mean? Well, axiom is kind of unique but is just an implementation of many common cloud technologies. 
+Axiom is a dynamic infrastructure framework for *everybody*! What does this mean? Well, axiom is kind of unique but at its core it is a collection of many common bug bounty/hacking tools. 
 
-Axiom is a framework that allows you to easily orchestrate one, or many cloud instances to distribute the processing of a task or many tasks. Numerous helper utilities make moving files between your instances, backing up your instances, and initializing and deleting one or many instances a painless task. 
+Axiom is a framework that allows you to easily orchestrate one or many server instances in the cloud to distribute the processing of a task or many tasks. Numerous helper utilities make moving files between your instances, backing up your instances, and initializing/deleting one or many instances a painless task. 
 
 When making axiom, I wanted to make something that followed the Unix philosophy closely, to create the building blocks for people to create easy and predictable continuous scanning pipelines or general one-off highly parallelized workloads. 
 
