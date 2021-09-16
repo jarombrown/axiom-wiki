@@ -22,6 +22,8 @@ Run this command, as your standard user, not as root.
 bash <(curl -s https://raw.githubusercontent.com/pry0cc/axiom/master/interact/axiom-configure)
 ```
 
+If everything goes as planned, axiom will be completely up and running in ~ 30 minutes.
+
 ## Manual
 In most cases, the easy install should work, however, if you do want to install manually, this guide is your friend!
 
@@ -41,9 +43,9 @@ $HOME/.axiom/interact/axiom-configure
 ```
 
 # Troubleshooting
-If an error is occurring recently, please run axiom-update successfully before reporting an issue.
+If an error occurs, please run axiom-update successfully before reporting an issue.
 
-If even after all these steps, it still isn't working, then use this checklist:
+If even after all these steps it still isn't working, then use this checklist:
 - Does ~/.axiom/axiom.json exist? Is it empty?
 - Is doctl configured? Run `doctl compute instances list` to test, you may need to run `doctl auth`. 
 - Is axiom in your path? Run `echo $PATH`, your `$PATH` should contain ~/.axiom/interact/, this is the directory with all the scripts
